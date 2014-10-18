@@ -1,1 +1,6 @@
-Eventually I will add things about me here...
+----
+-layout: post
+-title: About Me
+----
+-
+-Eventually I am going to add some things here
