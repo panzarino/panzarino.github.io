@@ -3,4 +3,22 @@ layout: page
 title: About Me
 ---
 
-Eventually I am going to add some things here
+I am a programmer who is still developing his skills.
+<br>
+# Proficient Skills
+
+* Python
+
+* PHP
+
+* HTML/CSS
+
+* SQL
+
+<br>
+
+# Developing Skills
+
+* Java
+* JavaScript
+* Ruby
