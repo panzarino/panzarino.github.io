@@ -1,3 +1,3 @@
-﻿# zachpanz.github.io
+﻿# zachpanz88.github.io
 <br>
 My Personal GitHub Website
