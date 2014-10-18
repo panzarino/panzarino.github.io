@@ -6,8 +6,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Lanyon
-tagline:          "Zach's Website"
+title:            "Zach's Website"
+tagline:          "A GitHub Website"
 description:      'A GitHub Website'
 url:              http://github.com/zachpanz88
 
