@@ -1,6 +1,6 @@
 ----
--layout: page
--title: About Me
+layout: page
+title: About Me
 ----
--
+
 -Eventually I am going to add some things here
