@@ -1,6 +1,6 @@
-----
+---
 layout: page
-title: About Me
-----
+title: About
+---
 
 Eventually I am going to add some things here
