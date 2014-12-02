@@ -7,15 +7,15 @@ permalink:        pretty
 
 # Setup
 title:            "Zach's Website"
-tagline:          "A GitHub Website"
-description:      "Zach's GitHub Website"
+tagline:          "A Website About Code"
+description:      "Zach's Code Website"
 url:              http://github.com/zachpanz88
 
 author:
   name:           'Zach P'
   url:            https://github.com/zachpanz88
 
-paginate:         5
+paginate:         1
 
 # Custom vars
 version:          1.0.0
