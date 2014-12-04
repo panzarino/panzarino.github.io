@@ -12,10 +12,11 @@ I am a programmer who is still developing his skills.
 * SQL
 * JavaScript
 * Git
-* XML
 
 # Developing Skills
 
 * Java
 * Ruby
 * jQuery
+* C
+* C++
