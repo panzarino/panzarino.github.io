@@ -11,11 +11,11 @@ I am a programmer who is still developing his skills.
 * HTML/CSS
 * SQL
 * JavaScript
+* Java
 * Git
 
 # Developing Skills
 
-* Java
 * Ruby
 * jQuery
 * C
