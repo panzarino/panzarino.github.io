@@ -11,7 +11,7 @@ tagline:          "A Website About Code"
 description:      "Zach's Code Website"
 url:              http://github.com/zachpanz88
 
-author:
+author:           'Zach Panzarino'
   name:           'Zach P'
   url:            https://github.com/zachpanz88
 
@@ -20,5 +20,5 @@ paginate:         1
 # Custom vars
 version:          1.0.0
 
-github:
+github:           zachpanz88
   repo:           https://github.com/zachpanz88/zachpanz88.github.io
