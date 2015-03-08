@@ -15,7 +15,7 @@ author:           'Zach Panzarino'
   name:           'Zach P'
   url:            https://github.com/zachpanz88
 
-paginate:         3
+paginate:         1
 
 # Custom vars
 version:          1.0.0
