@@ -3,7 +3,8 @@ layout: page
 title: About Me
 ---
 
-I am a programmer who is still developing his skills.
+I am a cool guy
+<!-- I am a programmer who is still developing his skills.
 # Proficient Skills
 
 * Python
@@ -20,3 +21,4 @@ I am a programmer who is still developing his skills.
 * jQuery
 * C
 * C++
+-->
