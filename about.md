@@ -4,21 +4,3 @@ title: About Me
 ---
 
 I am a cool guy
-<!-- I am a programmer who is still developing his skills.
-# Proficient Skills
-
-* Python
-* PHP
-* HTML/CSS
-* SQL
-* JavaScript
-* Java
-* Git
-
-# Developing Skills
-
-* Ruby
-* jQuery
-* C
-* C++
--->
