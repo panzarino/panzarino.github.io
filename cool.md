@@ -3,7 +3,7 @@ layout: page
 title: Cool Stuff
 ---
 # Stuff I Created
-* <a href="http://zachpanz88.insomnia247.nl/proxy/">Proxy</a> - Access blocked sites from anywhere
+* <a href="http://zachpanz88.insomnia247.nl/proxy/">Proxy</a> - Access blocked sites from anywhere (Even in school)
 * <a href="https://re-search.herokuapp.com/">Research</a> - Finds information on any topic you search (Loads slowly at first)
 
 # Other Stuff on This Website
