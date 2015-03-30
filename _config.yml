@@ -22,3 +22,5 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/zachpanz88/zachpanz88.github.io
+
+production_url : http://panzarino.me
