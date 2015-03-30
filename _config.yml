@@ -9,7 +9,7 @@ permalink:        pretty
 title:            "Zach's Website"
 tagline:          "A Simple Website"
 description:      "Zach's Website"
-url:              http://github.com/zachpanz88
+url:              https://github.com/zachpanz88
 
 author:
   name:           'Zach P'
@@ -20,5 +20,5 @@ paginate:         3
 # Custom vars
 version:          1.0.0
 
-github:
+github:           'zachpanz88'
   repo:           https://github.com/zachpanz88/zachpanz88.github.io
