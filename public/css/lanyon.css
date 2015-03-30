@@ -544,3 +544,15 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Custom */
+.theme-base-0g .sidebar,
+.theme-base-0g .sidebar-toggle:active,
+.theme-base-0g #sidebar-checkbox:checked ~ .wrap .sidebar-toggle {
+  background-color: #000047;
+}
+.theme-base-0g .container a,
+.theme-base-0g .sidebar-toggle,
+.theme-base-0g .related-posts li a:hover {
+  color: #000047;
+}
