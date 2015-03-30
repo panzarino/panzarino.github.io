@@ -20,5 +20,5 @@ paginate:         3
 # Custom vars
 version:          1.0.0
 
-github:           https://github.com/zachpanz88
+github:
   repo:           https://github.com/zachpanz88/zachpanz88.github.io
