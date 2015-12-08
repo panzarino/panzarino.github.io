@@ -2,7 +2,7 @@
 layout: post
 title: "A wonderful serenity has taken possession of my entire soul"
 date: 2015-11-12 16:39:18
-comments: true
+comments: false
 description: "A wonderful serenity has taken possession of my entire soul"
 keywords: ""
 categories:
