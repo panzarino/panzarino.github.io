@@ -2,13 +2,12 @@ permalink   : /:title/
 markdown    : kramdown
 highlighter : pygments
 
-paginate: 2 #6
+paginate: 6
 comments: true
 paginate_path: "/page/:num"
 
-baseurl: "/nandomoreira-jekyll-theme" # change to empty string ""
-domain_name: nandomoreira.me
-google_analytics: UA-52446115-1
+baseurl: "" # change to empty string ""
+domain_name: panzarino.me
 
 source:      source
 destination: _site
@@ -17,27 +16,23 @@ destination: _site
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
-name: Fernando Moreira
-title: Fernando Moreira | Desenvolvimento Web e tudo mais..
-description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
-meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
-meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
-url: http://nandomoreira.me
-production_url: http://nandomoreira.me
-repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
-disqus_shortname: "fernandomoreira"
+name: Zach's Website
+title: Zach's Website
+description: "Zach's Software Development Website"
+meta_description: "Zach's Software Development Website"
+meta_keywords: "site, website, Zach Panzarino, Panzarino, zachpanz88"
+url: http://panzarino.me
+production_url: http://panzarino.me
+repo: https://github.com/zachpanz88/zachpanz88.github.io
+disqus_shortname: "zachpanz88"
 rss_path: source/
 author:
-  name      : Fernando Moreira
+  name      : Zach Panzarino
   image     : /assets/images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
-  facebook  : http://facebook.com/fernando.dev
-  twitter   : http://twitter.com/nandomoreirame
-  instagram : http://instagram.com/nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  linkedin  : http://linkedin.com/in/nandomoreirame
-  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+  email     : zachpanz88@gmail.com
+  url       : http://panzarino.me
+  github    : http://github.com/zachpanz88
+  bio       : "Full Stack Developer"
 
 # thought
 thought:
@@ -47,7 +42,7 @@ thought:
 # Plugin: jekyll-assets
 assets:
   dirname: /assets
-  baseurl: /nandomoreira-jekyll-theme/assets/ # change to /assets/
+  baseurl: /assets/ # change to /assets/
   sources:
     - assets/images
     - assets/fonts
