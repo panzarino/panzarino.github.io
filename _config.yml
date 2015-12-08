@@ -16,7 +16,7 @@ cover: /assets/images/header-cover.png
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
-name: Zach's Website
+name: Zach Panzarino
 title: Zach's Website
 description: "Zach's Software Development Website"
 meta_description: "Zach's Software Development Website"
@@ -28,7 +28,7 @@ disqus_shortname: "zachpanz88"
 rss_path: source/
 author:
   name      : Zach Panzarino
-  image     : /assets/images/author.jpg
+  image     : /assets/images/author.png
   email     : zachpanz88@gmail.com
   url       : http://panzarino.me
   github    : http://github.com/zachpanz88
