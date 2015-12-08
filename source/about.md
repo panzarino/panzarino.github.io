@@ -1,13 +1,24 @@
 ---
 layout: page
-title: About
-description: "This is a Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com"
+title: About Me
+description: "Information About Me"
 permalink: /about/
 slug: about
 ---
 
-This is a Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I started coding in 2012, when I was still in high school. I am self-taught everything that I know about code, and I am very proficient in some programming languages and topics. This is just a simple site that details some of the things that I do with coding.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Skills
+------
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+- HTML/CSS
+	- Bootstrap
+- Python
+- PHP
+- Java
+- JavaScript
+	- jQuery
+- SQL
+	- mySQL
+- Git
+	- GitHub
