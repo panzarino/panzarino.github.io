@@ -55,10 +55,9 @@ comments: true
     <section class="author">
       <h4>{{ site.author.name }}</h4>
       <p>{{ site.author.bio }}</p>
+      {% include share.html %}
     </section>
     {% endif %}
-
-    {% include share.html %}
 
     {% if site.comments and page.comments %}
       {% include comments.html %}
