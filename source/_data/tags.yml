@@ -13,3 +13,6 @@
   
 - slug: shell
   name: Shell
+  
+- slug: github
+  name: GitHub

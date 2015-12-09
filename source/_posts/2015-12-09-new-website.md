@@ -12,6 +12,7 @@ tags:
 - website
 - ruby
 - shell
+- github
 ---
 
 So I just set up this new website with a new theme, which is hosted on [GitHub](https://github.com/zachpanz88/zachpanz88.github.io).
