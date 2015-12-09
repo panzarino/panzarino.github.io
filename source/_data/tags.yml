@@ -1,6 +1,15 @@
 
-- slug: welcome
-  name: Welcome
+- slug: general
+  name: General
 
-- slug: hello-world
-  name: Hello World
+- slug: python
+  name: Python
+
+- slug: ruby
+  name: Ruby
+
+- slug: website
+  name: Website
+  
+- slug: shell
+  name: Shell
