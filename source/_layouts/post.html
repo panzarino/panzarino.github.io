@@ -53,11 +53,13 @@ comments: true
   <footer class="post-footer">
     {% if site.author %}
     <section class="author">
+      <img src="{{ site.author.image | prepend: site.baseurl  }}" alt="author thumb" class="dot">
       <h4>{{ site.author.name }}</h4>
       <p>{{ site.author.bio }}</p>
-      {% include share.html %}
     </section>
     {% endif %}
+
+    {% include share.html %}
 
     {% if site.comments and page.comments %}
       {% include comments.html %}
