@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "New Website"
-date: 2015-12-08 23:00:00
+date: 2015-12-09 04:00:00
 comments: true
-description: "Basics of how the website works"
+description: "Basics of how the new website works"
 keywords: "website, site"
 categories:
 - general
@@ -16,7 +16,7 @@ tags:
 
 So I just set up this new website with a new theme, which is hosted on [GitHub](https://github.com/zachpanz88/zachpanz88.github.io).
 
-However, becuase GitHub does not allow custom plugins for jekyll, I have to do a little bit of extra work than just uploading the jekyll files to the repository. 
+However, becuase GitHub does not allow custom plugins for Jekyll, I have to do a little bit of extra work than just uploading the Jekyll files to the repository. 
 
 The code that I use to generate the website code is stored in the [`source`](https://github.com/zachpanz88/zachpanz88.github.io/tree/source) branch of the repository (currently default branch). 
 
@@ -36,7 +36,12 @@ Next, I run the script that updates the website itself (on the `master` branch):
 $ rake publish
 {% endhighlight %}
 
-This is what the relevant part of the [`Rakefile`](https://github.com/zachpanz88/zachpanz88.github.io/blob/source/Rakefile) looks like:
+This is what the relevant part of the [`Rakefile`](https://github.com/zachpanz88/zachpanz88.github.io/blob/source/Rakefile) looks like. 
+First, it builds the website with Jekyll in the `_site` directory. It then `cd`'s into the `_site` directory. 
+To push the files to GitHub, it initializes a repository and sets the remote to match my website repository. 
+It changes to the master branch using `--orphan`, meaning that there will be no history.
+The program then commits the files and pushes them to the repository, using `--force`, so previous commits are overwritten. 
+The only commit that resides in the [`master`](https://github.com/zachpanz88/zachpanz88.github.io/tree/master) branch is the last time the site was updated, which is stated in the commit message.
 {% highlight ruby %}
 # encoding: UTF-8
 require "rubygems"
