@@ -17,10 +17,10 @@ cover: /assets/images/header-cover.png
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
 name: Zach Panzarino
-title: Zach's Website
-description: "Zach's Software Development Website"
-meta_description: "Zach's Software Development Website"
-meta_keywords: "site, website, Zach Panzarino, Panzarino, zachpanz88"
+title: Zach's Code Website
+description: "Zach's Code Website"
+meta_description: "Zach's Code Website"
+meta_keywords: "site, website, code, Zach Panzarino, Panzarino, zachpanz88"
 url: http://panzarino.me
 production_url: http://panzarino.me
 repo: https://github.com/zachpanz88/zachpanz88.github.io
