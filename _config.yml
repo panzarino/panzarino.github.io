@@ -8,7 +8,6 @@ paginate_path: "/page/:num"
 
 baseurl: "" # change to empty string ""
 domain_name: panzarino.me
-google_analytics: UA-71221773-1
 
 source:      source
 destination: _site
