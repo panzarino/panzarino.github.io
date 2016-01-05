@@ -97,7 +97,7 @@ end
 
 So essentially thats all I have to do after making a change to the website, but it is pretty annoying becuase I can't publish posts from the GitHub web interface.
 
-Knowing that I would have to type these commands over and over, I made a shell script [update.sh](https://github.com/zachpanz88/zachpanz88.github.io/blob/source/update.sh):
+Knowing that I would have to type these commands over and over, I made a shell script [`update.sh`](https://github.com/zachpanz88/zachpanz88.github.io/blob/source/update.sh):
 {% highlight bash %}
 #!/bin/bash -e
 
