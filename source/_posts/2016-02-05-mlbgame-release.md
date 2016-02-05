@@ -60,7 +60,7 @@ game = mlbgame.day(2015, 8, 10, home="Mets", away="Mets")[0]
 
 We can simply `print game` to get a quick score report for the game, which looks like this:
 
-{% highlight %}
+{% highlight console %}
 Rockies (2) at Mets (4)
 {% endhighlight %}
 
@@ -78,7 +78,7 @@ for player in stats['home_pitching']:
 
 And the output is:
 
-{% highlight %}
+{% highlight console %}
 Jon Niese - 2 Earned Runs, 5 Strikouts, 6 Hits
 Tyler Clippard - 0 Earned Runs, 0 Strikouts, 0 Hits
 Jeurys Familia - 0 Earned Runs, 2 Strikouts, 0 Hits
@@ -96,7 +96,7 @@ for player in stats['home_batting']:
 
 And the output is (notice the players are in order of which they first appeared at the plate):
 
-{% highlight %}
+{% highlight console %}
 Curtis Granderson - 0 for 3 with 1 RBI
 Daniel Murphy - 1 for 4 with 2 RBI
 Yoenis Cespedes - 0 for 4
