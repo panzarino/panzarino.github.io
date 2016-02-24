@@ -36,8 +36,8 @@ author:
 
 # thought
 thought:
-  text: I have no special talent. I am only passionately curious.
-  author: Albert Einstein
+  text: Quote
+  author: Author
 
 # Plugin: jekyll-assets
 assets:

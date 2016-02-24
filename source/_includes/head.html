@@ -1,6 +1,6 @@
 {% assign page_title = '' %}
 
-{% if page.title == "Home" %}{% capture page_title %}{{ site.title }}{%if paginator and paginator.page != 1 %} - Page {{ paginator.page }}{% endif %}{% endcapture %}{% else %}{% capture page_title %}{%if page.slug == 'category' %}Category: {% endif %}{%if page.slug == 'tag' %}Tag: {% endif %} {{ page.title }} | {{ site.title }}{% endcapture %}{% endif %}
+{% if page.title == "Home" %}{% capture page_title %}{{ site.name }} | {{ site.title }}{%if paginator and paginator.page != 1 %} - Page {{ paginator.page }}{% endif %}{% endcapture %}{% else %}{% capture page_title %}{%if page.slug == 'category' %}Category: {% endif %}{%if page.slug == 'tag' %}Tag: {% endif %} {{ page.title }} | {{ site.title }}{% endcapture %}{% endif %}
 
 {% capture page_title %}{{ page_title | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
 
@@ -27,6 +27,7 @@
 <title>{{ page_title }}</title>
 
 <meta name="description" content="{{ page_description }}">
+<meta name="author" content="{{ site.author.name }}">
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
 
 <!-- Social: Facebook / Open Graph -->
