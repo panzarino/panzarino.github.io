@@ -1,6 +1,6 @@
 {% assign page_title = '' %}
 
-{% if page.title == "Home" %}{% capture page_title %}{{ site.name }} | {{ site.description }}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}{% endcapture %}{% else %}{% capture page_title %}{%if page.slug == 'category' %}Categoria: {% endif %}{%if page.slug == 'tag' %}Tag: {% endif %} {{ page.title }} | {{ site.name }}{% endcapture %}{% endif %}
+{% if page.title == "Home" %}{% capture page_title %}{{ site.title }}{%if paginator and paginator.page != 1 %} - Page {{ paginator.page }}{% endif %}{% endcapture %}{% else %}{% capture page_title %}{%if page.slug == 'category' %}Category: {% endif %}{%if page.slug == 'tag' %}Tag: {% endif %} {{ page.title }} | {{ site.title }}{% endcapture %}{% endif %}
 
 {% capture page_title %}{{ page_title | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
 
@@ -33,15 +33,15 @@
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta property="og:title" content="{{ page_title }}">
 <meta property="og:description" content="{{ page_description }}">
-<meta property="og:site_name" content="{{ site.author.name }}">
+<meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en">
 <meta property="og:type" content="website">
-<meta property="og:author" content="{{ site.author.facebook }}">
+<meta property="og:author" content="{{ site.author.name }}">
 <meta property="og:image" content="{{ page_image }}">
 
 <!-- Social: Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@nandomoreirame">
+<meta name="twitter:site" content="@zachpanz88">
 <meta name="twitter:domain" content="{{ site.url }}">
 <meta name="twitter:title" content="{{ page_title }}">
 <meta name="twitter:description" content="{{ page_description }}">
@@ -63,7 +63,7 @@
 
 <!-- Canonical link tag -->
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
 {% stylesheet main %}
 {% javascript modernizr-custom data-cfasync="false" %}

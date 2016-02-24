@@ -12,7 +12,7 @@ domain_name: panzarino.me
 source:      source
 destination: _site
 
-cover: /assets/images/header-cover.png
+cover: /assets/images/author.png
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
