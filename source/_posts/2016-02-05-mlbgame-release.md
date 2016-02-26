@@ -48,7 +48,7 @@ import mlbgame
 
 For this example, we will be working with a single Mets (my favorite team) game from this season (2015) on August 10. 
 To start, we use the `day` function to get the data from a single day (use the `games` function to get games from multiple days). 
-Because this function returns a list of games due to multiple games occurring on the same day, we must only select the first game in the list, becuase that is the game that we want 
+Because this function returns a list of games due to multiple games occurring on the same day, we must only select the first game in the list, because that is the game that we want 
 (with the way we use the `day` function there will only be one game in the list). 
 So, we know the team and the date of the game, but we do not know if that team was home or away. 
 Instead of having to find out this information, we can set both home and away to "Mets", and mlbgame will find a game where the Mets are either home or away. 
@@ -87,7 +87,7 @@ Jeurys Familia - 0 Earned Runs, 2 Strikouts, 0 Hits
 Of course those are just a few important stats, with many more available stats which you can check out in [`statmap.py`](https://github.com/zachpanz88/mlbgame/blob/master/mlbgame/statmap.py).
 
 Looks like the pitching did fairly well that game, but how was the hitting? 
-Lets loop through the hitters and print out their basic stats:
+Let's loop through the hitters and print out their basic stats:
 
 {% highlight python %}
 for player in stats['home_batting']:
