@@ -17,6 +17,6 @@ Skills
 - Python
 - PHP
 - Java
-- JavaScript / jQuery
+- JavaScript / jQuery / AngularJS
 - SQL / mySQL
 - Git / GitHub
