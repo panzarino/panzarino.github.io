@@ -10,8 +10,7 @@ I first started coding when I was still in high school. I am self-taught almost 
 
 
 
-Skills
-------
+### Skills
 
 - HTML / CSS / Bootstrap
 - Python / Django
