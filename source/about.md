@@ -14,7 +14,7 @@ Skills
 ------
 
 - HTML / CSS / Bootstrap
-- Python
+- Python / Django
 - PHP
 - Java
 - JavaScript / jQuery / AngularJS
