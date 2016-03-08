@@ -5,6 +5,12 @@ post_class: page-template
 slug: home
 ---
 
+<article>
+  <a href="http://panz.io" class="post alert txt-center">
+    <h2><strong>Note:</strong> This website has recently changed its url from panzarino.me to panz.io.</h2>
+  </a>
+</article>
+
 {% for post in paginator.posts %}
   {% include article.html %}
 {% endfor %}
