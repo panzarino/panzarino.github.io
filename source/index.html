@@ -5,12 +5,6 @@ post_class: page-template
 slug: home
 ---
 
-<article>
-  <a class="post alert txt-center">
-    <h2>Note: This website's url has recently changed from panzarino.me to panz.io. Please update dependencies accordingly.</h2>
-  </a>
-</article>
-
 {% for post in paginator.posts %}
   {% include article.html %}
 {% endfor %}
