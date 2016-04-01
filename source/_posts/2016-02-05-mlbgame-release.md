@@ -20,7 +20,7 @@ As of writing this, the current version is 1.0.3, with a few bug fixes from the 
 The full source code can be accessed on [GitHub](https://github.com/zachpanz88/mlbgame) (leave a star), 
 with new developments being worked on in the [`dev`](https://github.com/zachpanz88/mlbgame/tree/dev) branch.
 
-The full documentation for mlbgame is available [here](http://panzarino.me/mlbgame/).
+The full documentation for mlbgame is available [here](http://panz.io/mlbgame/).
 
 I was inspired to create this project becuase I realized that there is not really a good API for accessing MLB data. 
 I was also inspired by [nflgame](https://github.com/BurntSushi/nflgame), a similar project that retrieves NFL data. 
