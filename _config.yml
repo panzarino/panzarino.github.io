@@ -21,8 +21,8 @@ title: Zach's Code Website
 description: "Zach's Code Website"
 meta_description: "Zach's Code Website"
 meta_keywords: "site, website, code, Zach Panzarino, Panzarino, zachpanz88"
-url: http://panzarino.me
-production_url: http://panzarino.me
+url: http://panz.io
+production_url: http://panz.io
 repo: https://github.com/zachpanz88/zachpanz88.github.io
 disqus_shortname: "zachpanz88"
 rss_path: source/
@@ -30,7 +30,7 @@ author:
   name      : Zach Panzarino
   image     : /assets/images/author.png
   email     : zachpanz88@gmail.com
-  url       : http://panzarino.me
+  url       : http://panz.io
   github    : http://github.com/zachpanz88
   bio       : "Full Stack Developer and Student"
 
