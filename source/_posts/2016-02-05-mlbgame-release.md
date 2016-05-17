@@ -22,7 +22,7 @@ with new developments being worked on in the [`dev`](https://github.com/zachpanz
 
 The full documentation for mlbgame is available [here](http://panz.io/mlbgame/).
 
-I was inspired to create this project becuase I realized that there is not really a good API for accessing MLB data. 
+I was inspired to create this project because I realized that there is not really a good API for accessing MLB data. 
 I was also inspired by [nflgame](https://github.com/BurntSushi/nflgame), a similar project that retrieves NFL data. 
 Many of the functions in this project originated from similar functions in nflgame. 
 (The source code for a cool website I made using nflgame can be accessed [here](https://github.com/zachpanz88/fantasy-football))
@@ -66,7 +66,7 @@ Rockies (2) at Mets (4)
 
 Well that's great, we now have the score, but it really isn't too much information. 
 Say we want to find out how the Mets pitchers did in that game. 
-This is where we have to use `player_stats` function, becuase we want the stats for the individual players in the game (as opposed to the `team_stats` function).
+This is where we have to use `player_stats` function, because we want the stats for the individual players in the game (as opposed to the `team_stats` function).
 The `player_stats` function only needs the id of the game to get all the stats for that game.
 Once we get these stats, we can loop through and print out the Mets pitcher stats (we know the Mets are home because of the above output).
 

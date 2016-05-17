@@ -17,7 +17,7 @@ tags:
 
 So I just set up this new website with a new theme, which is hosted on [GitHub](https://github.com/zachpanz88/zachpanz88.github.io).
 
-However, becuase GitHub does not allow custom plugins for Jekyll, I have to do a little bit of extra work than just uploading the Jekyll files to the repository. 
+However, because GitHub does not allow custom plugins for Jekyll, I have to do a little bit of extra work than just uploading the Jekyll files to the repository. 
 
 The code that I use to generate the website code is stored in the [`source`](https://github.com/zachpanz88/zachpanz88.github.io/tree/source) branch of the repository (currently default branch). 
 
@@ -95,7 +95,7 @@ task :publish => [:generate] do
 end
 {% endhighlight %}
 
-So essentially thats all I have to do after making a change to the website, but it is pretty annoying becuase I can't publish posts from the GitHub web interface.
+So essentially thats all I have to do after making a change to the website, but it is pretty annoying because I can't publish posts from the GitHub web interface.
 
 Knowing that I would have to type these commands over and over, I made a shell script [`update.sh`](https://github.com/zachpanz88/zachpanz88.github.io/blob/source/update.sh):
 {% highlight bash %}
