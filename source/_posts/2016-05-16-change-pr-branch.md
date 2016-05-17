@@ -21,8 +21,6 @@ The new submitted PR is now compared to the `master` branch, but that's not wher
 GitHub does not allow owners or contributors to the repository to change the target branch, and it can be a pain to get the PR author to change the target branch. 
 That's where the command line comes in to save the day.
 
-There are two ways that you can do this, so I'll start with the easier way.
-
 Start by `fetch`ing the PR into a new branch and changing into that branch. You need to know the ID of the PR for this to work (it is the number shown after the title on GitHub and also in the URL).
 
 {% highlight console %}
