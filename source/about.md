@@ -6,7 +6,7 @@ permalink: /about/
 slug: about
 ---
 
-I first started coding when I was still in high school. I am self-taught almost everything that I know about code, and I am very proficient in some programming languages and topics. This is just a simple site that details some of the things that I do with coding.
+I am a full stack software engineer. I first started coding when I was in early high school. I am self-taught almost everything that I know about code, and I am very proficient in some programming languages and topics. This is just a simple site that details some of the things that I do with coding.
 
 
 

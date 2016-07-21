@@ -6,8 +6,8 @@ paginate: 6
 comments: true
 paginate_path: "/page/:num"
 
-baseurl: "" # change to empty string ""
-domain_name: panzarino.me
+baseurl: ""
+domain_name: panz.io
 
 source:      source
 destination: _site
@@ -32,12 +32,12 @@ author:
   email     : zachpanz88@gmail.com
   url       : http://panz.io
   github    : http://github.com/zachpanz88
-  bio       : "Full Stack Developer and Student"
+  bio       : "Full Stack Software Engineer and Student"
 
 # thought
-thought:
-  text: Quote
-  author: Author
+# thought:
+#   text: Quote
+#   author: Author
 
 # Plugin: jekyll-assets
 assets:
