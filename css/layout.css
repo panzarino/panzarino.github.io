@@ -1,20 +1,14 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+TOC:
+a. General Styles
+b. Header Styles
+c. About Section
+d. Resume Section
+e. Portfolio Section
+f. Call To Action Section
+g. Testimonials Section
+h. Contact Section
+i. Footer
 
 ===================================================================== */
 
@@ -179,7 +173,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #11ABB0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -971,7 +965,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #11ABB0;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
