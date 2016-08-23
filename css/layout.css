@@ -341,7 +341,7 @@ ul#nav li.current a { color: #11ABB0; }
   	-webkit-animation: java 2s ease;
 }
 .html-css {
-  	width: 80%;
+  	width: 75%;
   	-moz-animation: html-css 2s ease;
   	-webkit-animation: html-css 2s ease;
 }
@@ -368,7 +368,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-moz-keyframes html-css {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 75%;  }
 }
 
 @-webkit-keyframes python {
@@ -393,7 +393,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-webkit-keyframes html-css {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 75%;  }
 }
 
 /* ------------------------------------------------------------------ */
